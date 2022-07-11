@@ -1,0 +1,488 @@
+/* Begin Heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 5.1rem;
+  line-height: 6.1rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+}
+
+h3 {
+  font-size: 2.7rem;
+  line-height: 3.2rem;
+}
+
+h4 {
+  font-size: 2.3rem;
+  line-height: 2.8rem;
+}
+
+h5 {
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+/* End Heading */
+
+/* Begin Paragraph */
+p {
+  letter-spacing: 0.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+/* End Paragraph */
+
+/* Begin Container */
+.container {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 114rem;
+}
+
+.container.container--sm {
+  max-width: 70rem;
+}
+
+.section {
+  padding: 7.2rem 0 4.8rem;
+}
+/* End Container */
+
+/* Begin Display Flex */
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+/* End Display Flex */
+
+/* Begin Row and Col */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.col-3,
+.col-4,
+.col-6,
+.col-12 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.col-3 {
+  width: calc(100% / 4);
+}
+
+.col-4 {
+  width: calc(100% / 3);
+}
+
+.col-6 {
+  width: calc(100% / 2);
+}
+
+.col-12 {
+  width: 100%;
+}
+/* End Row and Col */
+
+/* Begin Column Span Grid */
+.col-1-span-2 {
+  grid-column: 1 / span 2 !important;
+}
+
+.col-2-span-2 {
+  grid-column: 2 / span 2;
+}
+
+.col-3-span-2 {
+  grid-column: 3 / span 2 !important;
+}
+
+/* End Column Span Grid */
+
+/* Begin Letter Spacing */
+.letter-spacing-2 {
+  letter-spacing: 0.2rem !important;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 0.3rem !important;
+}
+/* End Letter Spacing */
+
+/* Begin Text Alignment */
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+/* End Text Alignment */
+
+/* Begin Text Color */
+.text-primary {
+  color: #ff0e83 !important;
+}
+
+.text-secondary {
+  color: #4e2a84 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-dodger-blue {
+  color: #2cbeff !important;
+}
+/* End Text Color */
+
+/* Begin Text Transform */
+.text-capital {
+  text-transform: capitalize !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+/* End Text Transform */
+
+/* Begin Font Size */
+.fs-10 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.fs-16 {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.fs-17 {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+
+.fs-30 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+/* End Font Size */
+
+/* Begin Font Weight */
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+strong {
+  font-weight: 600;
+}
+/* End Font Weight */
+
+/* Begin Background Color */
+.bg-primary {
+  background-color: #ff0e83 !important;
+}
+
+.bg-secondary {
+  background-color: #4e2a84 !important;
+}
+
+.bg-deluge {
+  background-color: #836eaa !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-froly {
+  background-color: #ed6498 !important;
+}
+
+/* End Background Color */
+
+/* Begin Button */
+.btn {
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 600;
+
+  display: inline-block;
+
+  padding: 1.1rem 2.6rem;
+
+  border: 0.1rem solid;
+
+  min-width: 10rem;
+
+  transition: all 0.5s;
+}
+
+.btn.btn--b-r-xs {
+  border-radius: 0.5rem;
+}
+
+.btn.btn--xs {
+  padding: 0.6rem 1.6rem;
+}
+
+.btn.btn--primary {
+  color: #fff;
+  background-color: #ff0e83;
+  border-color: #fff;
+}
+
+.btn.btn--primary:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #ff0e83;
+}
+
+.btn.btn--secondary,
+.btn.btn--secondary-revert {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+
+  border-color: #ff0e83;
+  background-color: #ff0e83;
+}
+
+.btn.btn--secondary:hover {
+  color: #fff;
+  border-color: #000;
+  background-color: #000;
+}
+
+.btn.btn--secondary-revert:hover {
+  color: #000;
+  background-color: #fff;
+}
+/* End Button */
+
+/* Begin Input and Textarea */
+.form-control {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  border: 0.1rem solid #000;
+
+  padding: 1.5rem;
+  margin-top: 1.6rem;
+
+  width: 100%;
+}
+
+.form-control.topless {
+  margin-top: 0;
+}
+
+.form-control.form-control--xs {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  padding: 0.9rem;
+}
+
+input.form-control {
+  border-radius: 0.4rem;
+}
+
+input.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+textarea.form-control {
+  min-height: 18rem;
+}
+/* End Input */
+
+/* Begin Icon */
+i.s-15 {
+  font-size: 1.5rem;
+}
+
+i.s-21 {
+  font-size: 2.1rem;
+}
+
+i.s-28 {
+  font-size: 2.8rem;
+}
+
+i.s-48 {
+  font-size: 4.8rem;
+}
+
+i.s-disc {
+  width: 8.7rem;
+  height: 8.7rem;
+
+  line-height: 8.7rem;
+  text-align: center;
+
+  border-radius: 50%;
+  
+  transition: all 0.5s;
+}
+
+i.text-secondary.s-disc {
+  border: 0.1rem solid #4e2a84;
+}
+
+i.text-secondary.s-disc:hover {
+  color: #ff0e83;
+}
+
+i.s-square {
+  width: 3.7rem;
+  height: 3.7rem;
+
+  line-height: 3.7rem;
+  text-align: center;
+
+  transition: all 0.5s;
+}
+
+i.text-white.s-square {
+  border: 0.1rem solid #fff;
+}
+
+i.text-white.s-square:hover {
+  color: #ff0e83 !important;
+  border: 0.1rem solid #ff0e83;
+}
+/* End Icon */
+
+/* Begin Margin and Padding */
+.mt-8 {
+  margin-top: 0.8rem;
+}
+
+.mb-8 {
+  margin-bottom: 0.8rem;
+}
+
+.mt-16 {
+  margin-top: 1.6rem;
+}
+
+.mb-16 {
+  margin-bottom: 1.6rem;
+}
+
+.ml-16 {
+  margin-left: 1.6rem;
+}
+
+.mr-16 {
+  margin-right: 1.6rem;
+}
+
+.mt-24 {
+  margin-top: 2.4rem;
+}
+
+.my-24 {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.mt-28 {
+  margin-top: 2.8rem;
+}
+
+.mt-48 {
+  margin-top: 4.8rem;
+}
+
+.mb-48 {
+  margin-bottom: 4.8rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.px-32 {
+  padding: 0 3.2rem;
+}
+/* End Width and Height */
+
+/* Begin Width and Height */
+.w-100 {
+  width: 100%;
+}
+/* End Width and Height */
+
+/* Begin Link */
+a.link {
+  color: #fff;
+}
+
+a.link.link--primary {
+  color: #ff0e83;
+}
+
+a.link.link--primary:hover {
+  color: #fff;
+}
+
+a.link.link--secondary {
+  color: #000;
+}
+
+a.link.link--secondary:hover {
+  color: #2cbeff;
+}
+/* End Link */
+
+/* Begin Border */
+.br-b-dot-white {
+  border-bottom: 0.1rem dotted #fff;
+}
+/* End Border */
